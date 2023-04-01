@@ -4,7 +4,7 @@ services:
   app:
     build: .
     # Interactive Shell if needed
-#    stdin_open: true
-#    tty: true
+    stdin_open: true
+    tty: true
     volumes:
       - .:/app
