@@ -7,8 +7,8 @@ df = pd.read_csv('testfile.csv')
 print(df.to_string())
 
 print("\nHere's a Numpy Example")
-arr = np.array([1, 2, 3, 4, 5, 4, 4])
+arr = np.array([1, 2, 3, 5, 5, 5, 4])
 
-x = np.where(arr == 4)
+x = np.where(arr == 5)
 
 print(x)
